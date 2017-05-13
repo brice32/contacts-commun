@@ -12,4 +12,10 @@ public interface IServiceAnnonce {
 
 	DtoAnnonce retrouver(int idAnnonce) throws ExceptionAppli;
 
+	int inserer(DtoAnnonce dtoAnnonce) throws ExceptionAppli;
+
+	void supprimer(int idAnnonce) throws ExceptionAppli;
+
+	void modifier(DtoAnnonce dtoannonce) throws ExceptionAppli;
+
 }
